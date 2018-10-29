@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zajno Chat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <aside id="left-bar">
+        <header>
+            <section>
+                <span>Zajno Chat</span>
+                <button name="dropdown">dropdown</button>
+                <button name="left-bar-menu">menu</button>
+            </section>
+            <section>
+                <button name="serch-friend">Search</button>
+                <label for="search-friend">
+                    <input id="search-friend" type="text" placeholder="Search">
+                </label>
+                <button name="add-friend">Add</button>
+            </section>
+        </header>
+        <main>
+            <ul>
+                <li>
+                    <img src="" alt="">
+                    <span class="left-bar__friend-name">Herbert</span>
+                    <span class="left-bar__message"></span>
+                </li>
+                <li>
+                    <img src="" alt="">
+                    <span class="left-bar__friend-name">Amy</span>
+                    <span class="left-bar__message"></span>
+                </li>
+            </ul>
+        </main>
+        <footer>
+            <span class="left-bar__username">Vernon</span>
+            <button>logout</button>
+        </footer>
+    </aside>
+    <div id="chat-messages">
+        <header>
+            <span id="current-friend">Amy</span>
+            <img src="" alt="" name="video  ">
+            <img src="" alt="" name="add-to-friends">
+            <img src="" alt="" name="other">
+        </header>
+        <main>
+            <ul id="messages">
+                <li class="friend-message">
+                    <time></time>
+                    <p>Hi! How are you?</p>
+                </li>
+                <li class="user-message">
+                    <time></time>
+                    <p>Hello! I am fine and you?</p>
+                </li>
+                <li class="friend-message">
+                    <time></time>
+                    <p>Great! Thanks</p>
+                </li>
+            </ul>
+        </main>
+        <footer>
+            <label for="write-message">
+                <input id="write-message" type="text" placeholder="Type something to send...">
+                <button name="Add file to message">Add file</button>
+                <button name="Insert emoji">Insert emoji</button>
+                <button name="Record audio">Record audio</button>
+            </label>
+        </footer>
+    </div>
+</body>
+</html>

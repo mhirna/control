@@ -1,0 +1,18 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans serif;
+}
+
+#left-bar {
+    float: left;
+    display: inline-block;
+    width: 271px;
+    height: 570px;
+    box-shadow: 0 2px 4px 0 rgba(43, 43, 71, 0.19);
+    background-image: linear-gradient(to bottom, #3f3f5f, #383857);
+}
+
+#chat-messages{
+    display: inline-block;
+}
