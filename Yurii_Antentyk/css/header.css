@@ -1,0 +1,42 @@
+.zajnoChat__header{
+    background-image: linear-gradient(to bottom, #29294a, #20203e);
+    text-align: center;
+}
+
+.zajnoChat__header-logo{
+    opacity: 0.72;
+    font-family: SFUIDisplay;
+    color: #cac8ee;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 28px;
+    display: inline-block;
+}
+
+.zajnoChat__header-button{
+    display: block;
+    margin-top: 5px;
+    text-indent: 9999em;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 9.4px;
+    height: 9.4px;
+    border-radius: 5px;
+    border: solid 0.5px rgba(125, 124, 125, 0.29);
+    position: relative;
+    top: 5px;
+    margin-left: 6px;
+    float: left;
+}
+
+.zajnoChat__header-button--close{
+    background-color: #ed6c5e;
+}
+
+.zajnoChat__header-button--restore-down{
+    background-color: #f6c150;
+}
+
+.zajnoChat__header-button--minimaze{
+    background-color: #63c756;
+}
