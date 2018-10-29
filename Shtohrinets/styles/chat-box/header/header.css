@@ -1,0 +1,22 @@
+.header__buttons {
+  float: left; }
+.header__title {
+  float: left;
+  margin-left: 200px;
+  opacity: 0.72;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #cac8ee; }
+.header__button {
+  border-radius: 5px;
+  width: 10px;
+  height: 10px;
+  border: solid 0.5px rgba(125, 124, 125, 0.29);
+  background-color: #ed6c5e; }
+
+/*# sourceMappingURL=header.css.map */
