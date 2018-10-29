@@ -77,7 +77,7 @@ display: flex;
     flex-flow: column;
     padding: 1em 1em 0 1em;
     overflow: auto;
-    height: 36em
+    height: 29em;
 }
 
 .main-board{
