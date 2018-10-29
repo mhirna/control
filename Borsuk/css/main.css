@@ -1,0 +1,153 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+button, a {
+    cursor: pointer;
+    border: none;
+}
+
+
+.visually-hidden {
+    display: none;
+}
+
+.transparent {
+    background-color: transparent;
+}
+button.transparent {
+    border: none;
+    outline: none;
+}
+
+
+
+.chat {
+    display: flex;
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    flex-direction: column;
+}
+
+.chat__header {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    background-color: #20203e;
+}
+
+.chat__header nav {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.chat__header button {
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.chat__header .exit-button {
+    background-color: #ed6c5e;
+    border: none;
+    border-radius: 50%;
+}
+
+.chat__header .min-button {
+    background-color: #f6c150;
+    border: none;
+    border-radius: 50%;
+}
+
+.chat__header .exp-button {
+    background-color: #63c756;
+    border: none;
+    border-radius: 50%;
+}
+
+
+
+.chat__main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.chat__aside {
+    display: flex;
+    width: 271px;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #3f3f5f, #383857);
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    color: #cac8ee;
+}
+
+.chat__aside--top {
+    display: flex;
+    width: 100%;
+    height: 45px;
+    padding: 0 15px 0 15px;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: #2e2e4f;
+}
+
+.chat__aside--top--zajno-chat {
+    background-color: transparent;
+    outline: none;
+    display: flex;
+    height: 16px;
+    font: inherit;
+    color: inherit;
+}
+
+.chat__aside--search {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    padding: 0 15px 0 15px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #cac8ee;
+}
+
+.chat__aside--search--search-logo {
+    height: 11px;
+    width: 11px;
+    margin-right: 13px;
+    padding: 0;
+}
+
+.chat__aside--search--search-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.chat__aside--search--input {
+    height: 28px;
+    font: inherit;
+    font-size: 12px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: inherit;
+}
+
+.chat__messages {
+    width: calc(100% - 271px);
+    height: 100%;
+    background-color: #dcddf5;
+    box-sizing: border-box;
+}
