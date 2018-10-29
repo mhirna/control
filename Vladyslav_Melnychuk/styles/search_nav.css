@@ -1,0 +1,22 @@
+.search {
+  width: 271px;
+  height: 35px;
+  background-image: linear-gradient(to bottom, #3f3f5f, #383857);
+}
+
+.search__input {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 92%;
+}
+
+.search__add-button {
+  position: absolute;
+  display: inline-block;
+  width: 23px;
+  height: 1em;
+  float: right;
+  color: transparent;
+  border: none;
+  padding: 0;
+}

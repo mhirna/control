@@ -1,0 +1,46 @@
+.all-chats-qweqwe {
+  width: 271px;
+  height: 570px;
+  box-shadow: 0 2px 4px 0 rgba(43, 43, 71, 0.19);
+  background-image: linear-gradient(to bottom, #3f3f5f, #383857);
+}
+
+
+.aside-header {
+  width: 271px;
+  height: 45px;
+  box-shadow: 0 2px 4px 0 rgba(43, 43, 71, 0.19);
+  background-color: #2e2e4f;
+  display: inline-block;
+}
+
+.aside-header__h1 {
+  width: 71px;
+  height: 16px;
+  font-family: SFUIDisplay;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #cac8ee;
+  display: inline-block;
+}
+
+.aside-header__nav {
+  margin-top: 13px;
+  float: right;
+  line-height: 22px;
+  vertical-align: bottom;
+}
+
+.aside-header__nav--menu-button {
+  width: 12px;
+  height: 12px;
+  color: transparent;
+  overflow: hidden;
+  /*background: none;*/
+  border: none;
+}
