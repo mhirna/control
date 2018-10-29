@@ -1,0 +1,47 @@
+.navigation{
+  float: left;
+  width: 30%;
+}
+.chats-footer{
+  background: indigo;
+  position: fixed;
+  bottom: 0;
+}
+.chats-username{
+  color: white;
+  font-size: 14pt;
+}
+.chats-selector{
+  border: 0;
+  background-color: transparent;
+  color: white;
+  font-size: 24pt;
+  -moz-appearance:menulist-button; /* Firefox */
+  -webkit-appearance:menulist-button; /* Safari and Chrome */
+  appearance:menulist-button;
+}
+.chats-search{
+  border: 0;
+  background-color: transparent;
+  color: white;
+  font-size: 18pt;
+}
+.chats-header{
+  background: darkblue;
+  position: fixed;
+  top: 0;
+}
+.chats-user{
+  border: 0;
+  background-color: transparent;
+}
+.chats-select{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: darkviolet;
+}
+.main-body{
+  float: right;
+  width: 70%;
+}
