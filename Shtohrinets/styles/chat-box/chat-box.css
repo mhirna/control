@@ -1,0 +1,24 @@
+.chat-box {
+  position: relative;
+  margin: 100px auto;
+  height: 600px;
+  width: 800px;
+  background-color: white; }
+  .chat-box__header {
+    width: 100%;
+    height: 30px;
+    background-image: linear-gradient(to bottom, #29294a, #20203e); }
+  .chat-box__chats {
+    position: absolute;
+    height: 570px;
+    width: 271px;
+    background-color: #363656;
+    z-index: 1; }
+  .chat-box__messenger {
+    position: absolute;
+    background-color: #dcddf5;
+    right: 0;
+    height: 570px;
+    width: 530px; }
+
+/*# sourceMappingURL=chat-box.css.map */

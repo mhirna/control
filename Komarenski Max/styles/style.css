@@ -1,0 +1,89 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #dcddf5;
+}
+
+header{
+    width: 100%;
+    height: 45px;
+    display:inline-block;
+    background-color: #585886;
+}
+
+.dot {
+    border-radius: 50%;
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border: solid 2px #5d5d8a;
+    background-color: #00e100;
+}
+
+.online {
+    width: 24px;
+    height: 11px;
+    opacity: 0.7;
+    font-family: SFUIDisplay, serif;
+    font-size: 9px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #cac8ee;
+}
+
+.Amy-Daniel {
+    width: 59px;
+    height: 28px;
+    font-family: SFUIDisplay, serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #cac8ee;
+}
+
+.Rectangle-4 {
+    width: 25px;
+    height: auto;
+    opacity: 0.7;
+    background-image: linear-gradient(200deg, #89a1fc, #607ce1);
+}
+
+ul{
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+}
+
+ul li{
+    display:inline-block;
+    clear: both;
+    padding: 20px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.him{
+    float: left;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(167, 169, 197, 0.55);
+    background-color: #ffffff;
+}
+
+.me{
+    float: right;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(167, 169, 197, 0.55);
+    background-color: #89a1fc;
+}
+
+
+

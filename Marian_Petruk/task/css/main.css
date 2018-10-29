@@ -1,0 +1,109 @@
+body {
+  margin: auto;
+  width: 1024px;
+  height: 768px;
+  background-image: linear-gradient(200deg, #89a1fc, #607ce1);
+}
+
+.chat {
+  width: 800px;
+  height: 600px;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px 0 rgba(65, 87, 165, 0.28);
+  background-color: #ffffff;
+}
+.chat__header {
+  width: 800px;
+  height: 30px;
+  background-image: linear-gradient(to bottom, #29294a, #20203e);
+}
+.chat__header__title {
+  width: 105px;
+  height: 28px;
+  opacity: 0.72;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #cac8ee;
+}
+.chat__main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 800px;
+  height: 570px;
+  border-radius: 4px;
+  background-color: #dcddf5;
+}
+.chat__main__aside {
+  width: 271px;
+  height: 570px;
+  box-shadow: 0 2px 4px 0 rgba(43, 43, 71, 0.19);
+  background-image: linear-gradient(to bottom, #3f3f5f, #383857);
+}
+.chat__main__aside__header {
+  width: 271px;
+  height: 45px;
+  box-shadow: 0 2px 4px 0 rgba(43, 43, 71, 0.19);
+  background-color: #2e2e4f;
+}
+.chat__main__aside__header__title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #cac8ee;
+}
+.chat__main__aside__search {
+  width: 271px;
+  height: 45px;
+}
+.chat__main__aside__search-after {
+  width: 271px;
+  height: 0.5px;
+  opacity: 0.15;
+  background-color: #cac8ee;
+}
+.chat__main__aside__selected-element {
+  width: 271px;
+  height: 69px;
+  background-color: #363656;
+}
+.chat__main__aside__element {
+  width: 271px;
+  height: 69px;
+}
+.chat__main__aside__footer {
+  width: 271px;
+  height: 45px;
+  opacity: 0.2;
+  background-color: #89a1fc;
+}
+.chat__main__aside__footer__user-name {
+  height: 28px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #dad8fa;
+}
+.chat__main__main-content {
+  width: 529px;
+  height: 570px;
+  background-color: #ffffff;
+}
+
+/*# sourceMappingURL=main.css.map */
