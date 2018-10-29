@@ -1,0 +1,76 @@
+.chat {
+  width: 800px;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  border-radius: 4px 4px 0 0;
+  box-shadow: 0 8px 16px 0 rgba(65, 87, 165, 0.28); }
+  .chat__header {
+    display: block;
+    width: 100%;
+    height: 30px;
+    border-radius: 4px 4px 0 0;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #29294a, #20203e); }
+  .chat__header-title {
+    color: #cac8ee;
+    font-size: 12px;
+    margin: 0;
+    padding: 7.5px 0; }
+  .chat__content {
+    display: flex;
+    height: 570px; }
+  .chat__sidebar {
+    width: 271px;
+    background: #383857; }
+  .chat__sidebar-header {
+    background: #2e2e4f; }
+  .chat__sidebar-block {
+    border-bottom: 1px solid #4b4b61;
+    height: 45px; }
+  .chat__sidebar-header-title {
+    font-size: 14px;
+    color: #cac8ee;
+    margin: 0;
+    padding: 14.5px 0 14.5px 10px; }
+  .chat__sidebar-search-block {
+    background: #3e3e5e; }
+  .chat__sidebar-users {
+    padding: 0; }
+  .chat__sidebar-user {
+    display: flex;
+    padding: 15px;
+    height: 70px; }
+  .chat__sidebar-user-msg {
+    padding-left: 25px;
+    border-bottom: 1px solid #4b4b61; }
+  .chat__sidebar-user-pic {
+    width: 38px;
+    height: 38px; }
+  .chat__sidebar-user-msg-title {
+    font-size: 12px;
+    color: #dbd9fa;
+    display: block; }
+  .chat__sidebar-user-msg-detail {
+    font-size: 11px;
+    color: #9996d2; }
+  .chat__messages {
+    width: calc(100% - 271px);
+    background-color: #dcddf5; }
+
+html {
+  height: 100%; }
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0; }
+
+.presentation-body {
+  background: #89a1fc;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+/*# sourceMappingURL=main.css.map */
