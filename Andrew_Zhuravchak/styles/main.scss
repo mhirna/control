@@ -1,0 +1,20 @@
+@import "base";
+
+@import "chat/chat";
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.presentation-body {
+  background: #89a1fc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
